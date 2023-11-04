@@ -128,13 +128,19 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+
+ /*  1139 a 769 BONUS */
+
+ @media screen and (max-width:1139px) {
+      .container{
+       width: 100%;
+       }    
+ }
+
  /*  tablet: dai 768px in giù */
 
  @media screen and (max-width: 768px) {
-   .container{
-    width: 100%;
-   }
-
+ 
    h3{
     font-size: 1.3rem;
    }
